@@ -1,0 +1,164 @@
+Script started on 2024-07-16 06:49:12+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mecho "# jenkins-with-chat-gpt" >> README.md[27m
+[7mgit init[27m
+[7mgit add README.md[27m
+[7mgit commit -m "first commit"[27m
+[7mgit branch -M main[27m
+[7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit push -u origin main[27m[A[A[A[A[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# echo "# jenkins-with-chat-gpt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+git push -u origin main
+[?2004lReinitialized existing Git repository in /home/aylin/my-web-app/.git/
+[main 4fdb26e] first commit
+ 1 file changed, 1 insertion(+)
+Username for 'https://github.com': aylinxndaaa
+Password for 'https://aylinxndaaa@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/'
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# gi[K[Kls -a
+[?2004l [0m[01;34m.[0m   [01;34m..[0m  '{'   Dockerfile   [01;34m.git[0m   Jenkinsfile   [01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+Username for 'https://github.com': ^[[A^[[A^[[A^[[A                ^C
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[Kgit push -u origin mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kcommit -m "first commit"[10Pbranch -M mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kcommit -m "first commit"[11Padd README.mdinit[Kecho "# jenkins-with-chat-gpt" >> README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo apt upgrade[Kapt update[2Pifconfigapt install net-tools[13Pifconfig[K[K[K[K[K[K[K[Kgit remote remove origin
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote remove origin[Krm .git
+[?2004lrm: cannot remove '.git': Is a directory
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# rm .git-.gitr.git .git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls
+[?2004l'{'   Dockerfile   Jenkinsfile   [0m[01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# lsrm -r .git[3P.gitgit remote remove origin[1Ppush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[Kgit push -u origin mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kcommit -m "first commit"[11Padd README.mdinit[K
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/aylin/my-web-app/.git/
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls
+[?2004l'{'   Dockerfile   Jenkinsfile   [0m[01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# lsgit initls[Krm -r .git[3P.gitgit remote remove origin[1Ppush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[Kgit push -u origin mainls -a[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit initls[Krm -r .git[3P.gitgit remote remove origin[1Ppush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[Kgit push -u origin mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kcommit -m "first commit"[11Padd README.mdinit[Kecho "# jenkins-with-chat-gpt" >> README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo apt upgrade[Kapt update[2Pifconfigapt install net-tools[13Pifconfigapt updates[Kudo apt upgrade[8Pifconfigecho "# jenkins-with-chat-gpt" >> README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit init[Kadd README.mdcommit -m "first commit"[10Pbranch -M mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin main[Kls -a[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[5@push -u origin[C[C[C[C[Cremote remove originrm .git[K-r .gitls[Kgit initls[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit initls[Krm -r .git[3P.gitgit remote remove originrm .git[K-r .gitls[Kgit initls[Kgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7mgit config --global user.email "dimasnugraha1997@gmail.com"[27m
+[7m  git config --global user.name "aylinxndaaa"[27m[Agit config --global user.email "dimasnugraha1997@gmail.com"
+  git config --global user.name "aylinxndaaa"
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls
+[?2004l'{'   Dockerfile   Jenkinsfile   [0m[01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls -a
+[?2004l [0m[01;34m.[0m   [01;34m..[0m  '{'   Dockerfile   [01;34m.git[0m   Jenkinsfile   [01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit add README.md[27mgit add README.md
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit commit -m "first commit"[27mgit commit -m "first commit"
+[?2004l[master (root-commit) 9ef809e] first commit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit branch -M main[27mgit branch -M main
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit push -u origin main[27mgit push -u origin main
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main[K[Kster
+[?2004lerror: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git'
+[m[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin master[2Pin
+[?2004lUsername for 'https://github.com': aylinxndaaa
+Password for 'https://aylinxndaaa@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/'
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+Username for 'https://github.com': git remote rm origin
+Password for 'https://git remote rm origin@github.com': 
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# 
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote rm origin[27mgit remote rm origin
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls
+[?2004l'{'   Dockerfile   Jenkinsfile   [0m[01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+Username for 'https://github.com': ^C
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[5@push -u origin[C[C[C[C[C[Kgit remi[Kote -v
+[?2004lorigin	https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git (fetch)
+origin	https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git (push)
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote -vpush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit remote rm origin
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote rm origin[Kgit remote rm origin-v[Kpush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klsgit remote rm originpush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[27mgit@github.com:aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[K-v[K
+[?2004lorigin	git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git (fetch)
+origin	git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git (push)
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote -vadd origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v[K[K[7mgit remote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls
+[?2004l'{'   Dockerfile   Jenkinsfile   [0m[01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit push -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v[Kadd origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[K-v[Krm origin
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote rm origin[Kgit remote rm originpush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit push -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v[Kadd origin git@github.com:aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[K-v[Kpush -u origin main[5Pbranch -M[C[C[C[C[C[Klsgit remote rm originpush -u origin main[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit branch -M main[27mgit branch -M main
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# [7mgit push -u origin main[27mgit push -u origin main
+[?2004lUsername for 'https://github.com': dimasnugraha199@ 7@gmail.com
+Password for 'https://dimasnugraha1997@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/'
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# cd [K[K[Kgit push -u origin main[Kls -a\[K
+[?2004l [0m[01;34m.[0m   [01;34m..[0m  '{'   Dockerfile   [01;34m.git[0m   Jenkinsfile   [01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls -a[Kre -r .git
+[?2004lCommand 're' not found, but can be installed with:
+apt install re
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# re -r .git[K[K[K
+./    ../   .git/ 
+]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# re -r .
+./    ../   .git/ 
+]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# re -r .git
+[?2004lCommand 're' not found, but can be installed with:
+apt install re
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# re -r .git[1P[1@m
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls -a
+[?2004l [0m[01;34m.[0m   [01;34m..[0m  '{'   Dockerfile   Jenkinsfile   [01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git in
