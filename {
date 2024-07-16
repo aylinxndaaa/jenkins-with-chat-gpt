@@ -161,4 +161,599 @@ apt install re
 [?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# re -r .git[1P[1@m
 [?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# ls -a
 [?2004l [0m[01;34m.[0m   [01;34m..[0m  '{'   Dockerfile   Jenkinsfile   [01;34mnode_modules[0m   package.json   package-lock.json   README.md   [01;34msrc[0m
-[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git in
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/aylin/my-web-app/.git/
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git add -A
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git commit -m "latihan github"
+[?2004l[master (root-commit) 4e4e6d3] latihan github
+ 521 files changed, 65612 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 Jenkinsfile
+ create mode 100644 README.md
+ create mode 120000 node_modules/.bin/mime
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/accepts/HISTORY.md
+ create mode 100644 node_modules/accepts/LICENSE
+ create mode 100644 node_modules/accepts/README.md
+ create mode 100644 node_modules/accepts/index.js
+ create mode 100644 node_modules/accepts/package.json
+ create mode 100644 node_modules/array-flatten/LICENSE
+ create mode 100644 node_modules/array-flatten/README.md
+ create mode 100644 node_modules/array-flatten/array-flatten.js
+ create mode 100644 node_modules/array-flatten/package.json
+ create mode 100644 node_modules/body-parser/HISTORY.md
+ create mode 100644 node_modules/body-parser/LICENSE
+ create mode 100644 node_modules/body-parser/README.md
+ create mode 100644 node_modules/body-parser/SECURITY.md
+ create mode 100644 node_modules/body-parser/index.js
+ create mode 100644 node_modules/body-parser/lib/read.js
+ create mode 100644 node_modules/body-parser/lib/types/json.js
+ create mode 100644 node_modules/body-parser/lib/types/raw.js
+ create mode 100644 node_modules/body-parser/lib/types/text.js
+ create mode 100644 node_modules/body-parser/lib/types/urlencoded.js
+ create mode 100644 node_modules/body-parser/package.json
+ create mode 100644 node_modules/bytes/History.md
+ create mode 100644 node_modules/bytes/LICENSE
+ create mode 100644 node_modules/bytes/Readme.md
+ create mode 100644 node_modules/bytes/index.js
+ create mode 100644 node_modules/bytes/package.json
+ create mode 100644 node_modules/call-bind/.eslintignore
+ create mode 100644 node_modules/call-bind/.eslintrc
+ create mode 100644 node_modules/call-bind/.github/FUNDING.yml
+ create mode 100644 node_modules/call-bind/.nycrc
+ create mode 100644 node_modules/call-bind/CHANGELOG.md
+ create mode 100644 node_modules/call-bind/LICENSE
+ create mode 100644 node_modules/call-bind/README.md
+ create mode 100644 node_modules/call-bind/callBound.js
+ create mode 100644 node_modules/call-bind/index.js
+ create mode 100644 node_modules/call-bind/package.json
+ create mode 100644 node_modules/call-bind/test/callBound.js
+ create mode 100644 node_modules/call-bind/test/index.js
+ create mode 100644 node_modules/content-disposition/HISTORY.md
+ create mode 100644 node_modules/content-disposition/LICENSE
+ create mode 100644 node_modules/content-disposition/README.md
+ create mode 100644 node_modules/content-disposition/index.js
+ create mode 100644 node_modules/content-disposition/package.json
+ create mode 100644 node_modules/content-type/HISTORY.md
+ create mode 100644 node_modules/content-type/LICENSE
+ create mode 100644 node_modules/content-type/README.md
+ create mode 100644 node_modules/content-type/index.js
+ create mode 100644 node_modules/content-type/package.json
+ create mode 100644 node_modules/cookie-signature/.npmignore
+ create mode 100644 node_modules/cookie-signature/History.md
+ create mode 100644 node_modules/cookie-signature/Readme.md
+ create mode 100644 node_modules/cookie-signature/index.js
+ create mode 100644 node_modules/cookie-signature/package.json
+ create mode 100644 node_modules/cookie/HISTORY.md
+ create mode 100644 node_modules/cookie/LICENSE
+ create mode 100644 node_modules/cookie/README.md
+ create mode 100644 node_modules/cookie/SECURITY.md
+ create mode 100644 node_modules/cookie/index.js
+ create mode 100644 node_modules/cookie/package.json
+ create mode 100644 node_modules/debug/.coveralls.yml
+ create mode 100644 node_modules/debug/.eslintrc
+ create mode 100644 node_modules/debug/.npmignore
+ create mode 100644 node_modules/debug/.travis.yml
+ create mode 100644 node_modules/debug/CHANGELOG.md
+ create mode 100644 node_modules/debug/LICENSE
+ create mode 100644 node_modules/debug/Makefile
+ create mode 100644 node_modules/debug/README.md
+ create mode 100644 node_modules/debug/component.json
+ create mode 100644 node_modules/debug/karma.conf.js
+ create mode 100644 node_modules/debug/node.js
+ create mode 100644 node_modules/debug/package.json
+ create mode 100644 node_modules/debug/src/browser.js
+ create mode 100644 node_modules/debug/src/debug.js
+ create mode 100644 node_modules/debug/src/index.js
+ create mode 100644 node_modules/debug/src/inspector-log.js
+ create mode 100644 node_modules/debug/src/node.js
+ create mode 100644 node_modules/define-data-property/.eslintrc
+ create mode 100644 node_modules/define-data-property/.github/FUNDING.yml
+ create mode 100644 node_modules/define-data-property/.nycrc
+ create mode 100644 node_modules/define-data-property/CHANGELOG.md
+ create mode 100644 node_modules/define-data-property/LICENSE
+ create mode 100644 node_modules/define-data-property/README.md
+ create mode 100644 node_modules/define-data-property/index.d.ts
+ create mode 100644 node_modules/define-data-property/index.js
+ create mode 100644 node_modules/define-data-property/package.json
+ create mode 100644 node_modules/define-data-property/test/index.js
+ create mode 100644 node_modules/define-data-property/tsconfig.json
+ create mode 100644 node_modules/depd/History.md
+ create mode 100644 node_modules/depd/LICENSE
+ create mode 100644 node_modules/depd/Readme.md
+ create mode 100644 node_modules/depd/index.js
+ create mode 100644 node_modules/depd/lib/browser/index.js
+ create mode 100644 node_modules/depd/package.json
+ create mode 100644 node_modules/destroy/LICENSE
+ create mode 100644 node_modules/destroy/README.md
+ create mode 100644 node_modules/destroy/index.js
+ create mode 100644 node_modules/destroy/package.json
+ create mode 100644 node_modules/ee-first/LICENSE
+ create mode 100644 node_modules/ee-first/README.md
+ create mode 100644 node_modules/ee-first/index.js
+ create mode 100644 node_modules/ee-first/package.json
+ create mode 100644 node_modules/encodeurl/HISTORY.md
+ create mode 100644 node_modules/encodeurl/LICENSE
+ create mode 100644 node_modules/encodeurl/README.md
+ create mode 100644 node_modules/encodeurl/index.js
+ create mode 100644 node_modules/encodeurl/package.json
+ create mode 100644 node_modules/es-define-property/.eslintrc
+ create mode 100644 node_modules/es-define-property/.github/FUNDING.yml
+ create mode 100644 node_modules/es-define-property/.nycrc
+ create mode 100644 node_modules/es-define-property/CHANGELOG.md
+ create mode 100644 node_modules/es-define-property/LICENSE
+ create mode 100644 node_modules/es-define-property/README.md
+ create mode 100644 node_modules/es-define-property/index.d.ts
+ create mode 100644 node_modules/es-define-property/index.js
+ create mode 100644 node_modules/es-define-property/package.json
+ create mode 100644 node_modules/es-define-property/test/index.js
+ create mode 100644 node_modules/es-define-property/tsconfig.json
+ create mode 100644 node_modules/es-errors/.eslintrc
+ create mode 100644 node_modules/es-errors/.github/FUNDING.yml
+ create mode 100644 node_modules/es-errors/CHANGELOG.md
+ create mode 100644 node_modules/es-errors/LICENSE
+ create mode 100644 node_modules/es-errors/README.md
+ create mode 100644 node_modules/es-errors/eval.d.ts
+ create mode 100644 node_modules/es-errors/eval.js
+ create mode 100644 node_modules/es-errors/index.d.ts
+ create mode 100644 node_modules/es-errors/index.js
+ create mode 100644 node_modules/es-errors/package.json
+ create mode 100644 node_modules/es-errors/range.d.ts
+ create mode 100644 node_modules/es-errors/range.js
+ create mode 100644 node_modules/es-errors/ref.d.ts
+ create mode 100644 node_modules/es-errors/ref.js
+ create mode 100644 node_modules/es-errors/syntax.d.ts
+ create mode 100644 node_modules/es-errors/syntax.js
+ create mode 100644 node_modules/es-errors/test/index.js
+ create mode 100644 node_modules/es-errors/tsconfig.json
+ create mode 100644 node_modules/es-errors/type.d.ts
+ create mode 100644 node_modules/es-errors/type.js
+ create mode 100644 node_modules/es-errors/uri.d.ts
+ create mode 100644 node_modules/es-errors/uri.js
+ create mode 100644 node_modules/escape-html/LICENSE
+ create mode 100644 node_modules/escape-html/Readme.md
+ create mode 100644 node_modules/escape-html/index.js
+ create mode 100644 node_modules/escape-html/package.json
+ create mode 100644 node_modules/etag/HISTORY.md
+ create mode 100644 node_modules/etag/LICENSE
+ create mode 100644 node_modules/etag/README.md
+ create mode 100644 node_modules/etag/index.js
+ create mode 100644 node_modules/etag/package.json
+ create mode 100644 node_modules/express/History.md
+ create mode 100644 node_modules/express/LICENSE
+ create mode 100644 node_modules/express/Readme.md
+ create mode 100644 node_modules/express/index.js
+ create mode 100644 node_modules/express/lib/application.js
+ create mode 100644 node_modules/express/lib/express.js
+ create mode 100644 node_modules/express/lib/middleware/init.js
+ create mode 100644 node_modules/express/lib/middleware/query.js
+ create mode 100644 node_modules/express/lib/request.js
+ create mode 100644 node_modules/express/lib/response.js
+ create mode 100644 node_modules/express/lib/router/index.js
+ create mode 100644 node_modules/express/lib/router/layer.js
+ create mode 100644 node_modules/express/lib/router/route.js
+ create mode 100644 node_modules/express/lib/utils.js
+ create mode 100644 node_modules/express/lib/view.js
+ create mode 100644 node_modules/express/package.json
+ create mode 100644 node_modules/finalhandler/HISTORY.md
+ create mode 100644 node_modules/finalhandler/LICENSE
+ create mode 100644 node_modules/finalhandler/README.md
+ create mode 100644 node_modules/finalhandler/SECURITY.md
+ create mode 100644 node_modules/finalhandler/index.js
+ create mode 100644 node_modules/finalhandler/package.json
+ create mode 100644 node_modules/forwarded/HISTORY.md
+ create mode 100644 node_modules/forwarded/LICENSE
+ create mode 100644 node_modules/forwarded/README.md
+ create mode 100644 node_modules/forwarded/index.js
+ create mode 100644 node_modules/forwarded/package.json
+ create mode 100644 node_modules/fresh/HISTORY.md
+ create mode 100644 node_modules/fresh/LICENSE
+ create mode 100644 node_modules/fresh/README.md
+ create mode 100644 node_modules/fresh/index.js
+ create mode 100644 node_modules/fresh/package.json
+ create mode 100644 node_modules/function-bind/.eslintrc
+ create mode 100644 node_modules/function-bind/.github/FUNDING.yml
+ create mode 100644 node_modules/function-bind/.github/SECURITY.md
+ create mode 100644 node_modules/function-bind/.nycrc
+ create mode 100644 node_modules/function-bind/CHANGELOG.md
+ create mode 100644 node_modules/function-bind/LICENSE
+ create mode 100644 node_modules/function-bind/README.md
+ create mode 100644 node_modules/function-bind/implementation.js
+ create mode 100644 node_modules/function-bind/index.js
+ create mode 100644 node_modules/function-bind/package.json
+ create mode 100644 node_modules/function-bind/test/.eslintrc
+ create mode 100644 node_modules/function-bind/test/index.js
+ create mode 100644 node_modules/get-intrinsic/.eslintrc
+ create mode 100644 node_modules/get-intrinsic/.github/FUNDING.yml
+ create mode 100644 node_modules/get-intrinsic/.nycrc
+ create mode 100644 node_modules/get-intrinsic/CHANGELOG.md
+ create mode 100644 node_modules/get-intrinsic/LICENSE
+ create mode 100644 node_modules/get-intrinsic/README.md
+ create mode 100644 node_modules/get-intrinsic/index.js
+ create mode 100644 node_modules/get-intrinsic/package.json
+ create mode 100644 node_modules/get-intrinsic/test/GetIntrinsic.js
+ create mode 100644 node_modules/gopd/.eslintrc
+ create mode 100644 node_modules/gopd/.github/FUNDING.yml
+ create mode 100644 node_modules/gopd/CHANGELOG.md
+ create mode 100644 node_modules/gopd/LICENSE
+ create mode 100644 node_modules/gopd/README.md
+ create mode 100644 node_modules/gopd/index.js
+ create mode 100644 node_modules/gopd/package.json
+ create mode 100644 node_modules/gopd/test/index.js
+ create mode 100644 node_modules/has-property-descriptors/.eslintrc
+ create mode 100644 node_modules/has-property-descriptors/.github/FUNDING.yml
+ create mode 100644 node_modules/has-property-descriptors/.nycrc
+ create mode 100644 node_modules/has-property-descriptors/CHANGELOG.md
+ create mode 100644 node_modules/has-property-descriptors/LICENSE
+ create mode 100644 node_modules/has-property-descriptors/README.md
+ create mode 100644 node_modules/has-property-descriptors/index.js
+ create mode 100644 node_modules/has-property-descriptors/package.json
+ create mode 100644 node_modules/has-property-descriptors/test/index.js
+ create mode 100644 node_modules/has-proto/.eslintrc
+ create mode 100644 node_modules/has-proto/.github/FUNDING.yml
+ create mode 100644 node_modules/has-proto/CHANGELOG.md
+ create mode 100644 node_modules/has-proto/LICENSE
+ create mode 100644 node_modules/has-proto/README.md
+ create mode 100644 node_modules/has-proto/index.d.ts
+ create mode 100644 node_modules/has-proto/index.js
+ create mode 100644 node_modules/has-proto/package.json
+ create mode 100644 node_modules/has-proto/test/index.js
+ create mode 100644 node_modules/has-proto/tsconfig.json
+ create mode 100644 node_modules/has-symbols/.eslintrc
+ create mode 100644 node_modules/has-symbols/.github/FUNDING.yml
+ create mode 100644 node_modules/has-symbols/.nycrc
+ create mode 100644 node_modules/has-symbols/CHANGELOG.md
+ create mode 100644 node_modules/has-symbols/LICENSE
+ create mode 100644 node_modules/has-symbols/README.md
+ create mode 100644 node_modules/has-symbols/index.js
+ create mode 100644 node_modules/has-symbols/package.json
+ create mode 100644 node_modules/has-symbols/shams.js
+ create mode 100644 node_modules/has-symbols/test/index.js
+ create mode 100644 node_modules/has-symbols/test/shams/core-js.js
+ create mode 100644 node_modules/has-symbols/test/shams/get-own-property-symbols.js
+ create mode 100644 node_modules/has-symbols/test/tests.js
+ create mode 100644 node_modules/hasown/.eslintrc
+ create mode 100644 node_modules/hasown/.github/FUNDING.yml
+ create mode 100644 node_modules/hasown/.nycrc
+ create mode 100644 node_modules/hasown/CHANGELOG.md
+ create mode 100644 node_modules/hasown/LICENSE
+ create mode 100644 node_modules/hasown/README.md
+ create mode 100644 node_modules/hasown/index.d.ts
+ create mode 100644 node_modules/hasown/index.js
+ create mode 100644 node_modules/hasown/package.json
+ create mode 100644 node_modules/hasown/tsconfig.json
+ create mode 100644 node_modules/http-errors/HISTORY.md
+ create mode 100644 node_modules/http-errors/LICENSE
+ create mode 100644 node_modules/http-errors/README.md
+ create mode 100644 node_modules/http-errors/index.js
+ create mode 100644 node_modules/http-errors/package.json
+ create mode 100644 node_modules/iconv-lite/Changelog.md
+ create mode 100644 node_modules/iconv-lite/LICENSE
+ create mode 100644 node_modules/iconv-lite/README.md
+ create mode 100644 node_modules/iconv-lite/encodings/dbcs-codec.js
+ create mode 100644 node_modules/iconv-lite/encodings/dbcs-data.js
+ create mode 100644 node_modules/iconv-lite/encodings/index.js
+ create mode 100644 node_modules/iconv-lite/encodings/internal.js
+ create mode 100644 node_modules/iconv-lite/encodings/sbcs-codec.js
+ create mode 100644 node_modules/iconv-lite/encodings/sbcs-data-generated.js
+ create mode 100644 node_modules/iconv-lite/encodings/sbcs-data.js
+ create mode 100644 node_modules/iconv-lite/encodings/tables/big5-added.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/cp936.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/cp949.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/cp950.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/eucjp.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/gbk-added.json
+ create mode 100644 node_modules/iconv-lite/encodings/tables/shiftjis.json
+ create mode 100644 node_modules/iconv-lite/encodings/utf16.js
+ create mode 100644 node_modules/iconv-lite/encodings/utf7.js
+ create mode 100644 node_modules/iconv-lite/lib/bom-handling.js
+ create mode 100644 node_modules/iconv-lite/lib/extend-node.js
+ create mode 100644 node_modules/iconv-lite/lib/index.d.ts
+ create mode 100644 node_modules/iconv-lite/lib/index.js
+ create mode 100644 node_modules/iconv-lite/lib/streams.js
+ create mode 100644 node_modules/iconv-lite/package.json
+ create mode 100644 node_modules/inherits/LICENSE
+ create mode 100644 node_modules/inherits/README.md
+ create mode 100644 node_modules/inherits/inherits.js
+ create mode 100644 node_modules/inherits/inherits_browser.js
+ create mode 100644 node_modules/inherits/package.json
+ create mode 100644 node_modules/ipaddr.js/LICENSE
+ create mode 100644 node_modules/ipaddr.js/README.md
+ create mode 100644 node_modules/ipaddr.js/ipaddr.min.js
+ create mode 100644 node_modules/ipaddr.js/lib/ipaddr.js
+ create mode 100644 node_modules/ipaddr.js/lib/ipaddr.js.d.ts
+ create mode 100644 node_modules/ipaddr.js/package.json
+ create mode 100644 node_modules/media-typer/HISTORY.md
+ create mode 100644 node_modules/media-typer/LICENSE
+ create mode 100644 node_modules/media-typer/README.md
+ create mode 100644 node_modules/media-typer/index.js
+ create mode 100644 node_modules/media-typer/package.json
+ create mode 100644 node_modules/merge-descriptors/HISTORY.md
+ create mode 100644 node_modules/merge-descriptors/LICENSE
+ create mode 100644 node_modules/merge-descriptors/README.md
+ create mode 100644 node_modules/merge-descriptors/index.js
+ create mode 100644 node_modules/merge-descriptors/package.json
+ create mode 100644 node_modules/methods/HISTORY.md
+ create mode 100644 node_modules/methods/LICENSE
+ create mode 100644 node_modules/methods/README.md
+ create mode 100644 node_modules/methods/index.js
+ create mode 100644 node_modules/methods/package.json
+ create mode 100644 node_modules/mime-db/HISTORY.md
+ create mode 100644 node_modules/mime-db/LICENSE
+ create mode 100644 node_modules/mime-db/README.md
+ create mode 100644 node_modules/mime-db/db.json
+ create mode 100644 node_modules/mime-db/index.js
+ create mode 100644 node_modules/mime-db/package.json
+ create mode 100644 node_modules/mime-types/HISTORY.md
+ create mode 100644 node_modules/mime-types/LICENSE
+ create mode 100644 node_modules/mime-types/README.md
+ create mode 100644 node_modules/mime-types/index.js
+ create mode 100644 node_modules/mime-types/package.json
+ create mode 100644 node_modules/mime/.npmignore
+ create mode 100644 node_modules/mime/CHANGELOG.md
+ create mode 100644 node_modules/mime/LICENSE
+ create mode 100644 node_modules/mime/README.md
+ create mode 100755 node_modules/mime/cli.js
+ create mode 100644 node_modules/mime/mime.js
+ create mode 100644 node_modules/mime/package.json
+ create mode 100755 node_modules/mime/src/build.js
+ create mode 100644 node_modules/mime/src/test.js
+ create mode 100644 node_modules/mime/types.json
+ create mode 100644 node_modules/ms/index.js
+ create mode 100644 node_modules/ms/license.md
+ create mode 100644 node_modules/ms/package.json
+ create mode 100644 node_modules/ms/readme.md
+ create mode 100644 node_modules/negotiator/HISTORY.md
+ create mode 100644 node_modules/negotiator/LICENSE
+ create mode 100644 node_modules/negotiator/README.md
+ create mode 100644 node_modules/negotiator/index.js
+ create mode 100644 node_modules/negotiator/lib/charset.js
+ create mode 100644 node_modules/negotiator/lib/encoding.js
+ create mode 100644 node_modules/negotiator/lib/language.js
+ create mode 100644 node_modules/negotiator/lib/mediaType.js
+ create mode 100644 node_modules/negotiator/package.json
+ create mode 100644 node_modules/object-inspect/.eslintrc
+ create mode 100644 node_modules/object-inspect/.github/FUNDING.yml
+ create mode 100644 node_modules/object-inspect/.nycrc
+ create mode 100644 node_modules/object-inspect/CHANGELOG.md
+ create mode 100644 node_modules/object-inspect/LICENSE
+ create mode 100644 node_modules/object-inspect/example/all.js
+ create mode 100644 node_modules/object-inspect/example/circular.js
+ create mode 100644 node_modules/object-inspect/example/fn.js
+ create mode 100644 node_modules/object-inspect/example/inspect.js
+ create mode 100644 node_modules/object-inspect/index.js
+ create mode 100644 node_modules/object-inspect/package-support.json
+ create mode 100644 node_modules/object-inspect/package.json
+ create mode 100644 node_modules/object-inspect/readme.markdown
+ create mode 100644 node_modules/object-inspect/test-core-js.js
+ create mode 100644 node_modules/object-inspect/test/bigint.js
+ create mode 100644 node_modules/object-inspect/test/browser/dom.js
+ create mode 100644 node_modules/object-inspect/test/circular.js
+ create mode 100644 node_modules/object-inspect/test/deep.js
+ create mode 100644 node_modules/object-inspect/test/element.js
+ create mode 100644 node_modules/object-inspect/test/err.js
+ create mode 100644 node_modules/object-inspect/test/fakes.js
+ create mode 100644 node_modules/object-inspect/test/fn.js
+ create mode 100644 node_modules/object-inspect/test/global.js
+ create mode 100644 node_modules/object-inspect/test/has.js
+ create mode 100644 node_modules/object-inspect/test/holes.js
+ create mode 100644 node_modules/object-inspect/test/indent-option.js
+ create mode 100644 node_modules/object-inspect/test/inspect.js
+ create mode 100644 node_modules/object-inspect/test/lowbyte.js
+ create mode 100644 node_modules/object-inspect/test/number.js
+ create mode 100644 node_modules/object-inspect/test/quoteStyle.js
+ create mode 100644 node_modules/object-inspect/test/toStringTag.js
+ create mode 100644 node_modules/object-inspect/test/undef.js
+ create mode 100644 node_modules/object-inspect/test/values.js
+ create mode 100644 node_modules/object-inspect/util.inspect.js
+ create mode 100644 node_modules/on-finished/HISTORY.md
+ create mode 100644 node_modules/on-finished/LICENSE
+ create mode 100644 node_modules/on-finished/README.md
+ create mode 100644 node_modules/on-finished/index.js
+ create mode 100644 node_modules/on-finished/package.json
+ create mode 100644 node_modules/parseurl/HISTORY.md
+ create mode 100644 node_modules/parseurl/LICENSE
+ create mode 100644 node_modules/parseurl/README.md
+ create mode 100644 node_modules/parseurl/index.js
+ create mode 100644 node_modules/parseurl/package.json
+ create mode 100644 node_modules/path-to-regexp/History.md
+ create mode 100644 node_modules/path-to-regexp/LICENSE
+ create mode 100644 node_modules/path-to-regexp/Readme.md
+ create mode 100644 node_modules/path-to-regexp/index.js
+ create mode 100644 node_modules/path-to-regexp/package.json
+ create mode 100644 node_modules/proxy-addr/HISTORY.md
+ create mode 100644 node_modules/proxy-addr/LICENSE
+ create mode 100644 node_modules/proxy-addr/README.md
+ create mode 100644 node_modules/proxy-addr/index.js
+ create mode 100644 node_modules/proxy-addr/package.json
+ create mode 100644 node_modules/qs/.editorconfig
+ create mode 100644 node_modules/qs/.eslintrc
+ create mode 100644 node_modules/qs/.github/FUNDING.yml
+ create mode 100644 node_modules/qs/.nycrc
+ create mode 100644 node_modules/qs/CHANGELOG.md
+ create mode 100644 node_modules/qs/LICENSE.md
+ create mode 100644 node_modules/qs/README.md
+ create mode 100644 node_modules/qs/dist/qs.js
+ create mode 100644 node_modules/qs/lib/formats.js
+ create mode 100644 node_modules/qs/lib/index.js
+ create mode 100644 node_modules/qs/lib/parse.js
+ create mode 100644 node_modules/qs/lib/stringify.js
+ create mode 100644 node_modules/qs/lib/utils.js
+ create mode 100644 node_modules/qs/package.json
+ create mode 100644 node_modules/qs/test/parse.js
+ create mode 100644 node_modules/qs/test/stringify.js
+ create mode 100644 node_modules/qs/test/utils.js
+ create mode 100644 node_modules/range-parser/HISTORY.md
+ create mode 100644 node_modules/range-parser/LICENSE
+ create mode 100644 node_modules/range-parser/README.md
+ create mode 100644 node_modules/range-parser/index.js
+ create mode 100644 node_modules/range-parser/package.json
+ create mode 100644 node_modules/raw-body/HISTORY.md
+ create mode 100644 node_modules/raw-body/LICENSE
+ create mode 100644 node_modules/raw-body/README.md
+ create mode 100644 node_modules/raw-body/SECURITY.md
+ create mode 100644 node_modules/raw-body/index.d.ts
+ create mode 100644 node_modules/raw-body/index.js
+ create mode 100644 node_modules/raw-body/package.json
+ create mode 100644 node_modules/safe-buffer/LICENSE
+ create mode 100644 node_modules/safe-buffer/README.md
+ create mode 100644 node_modules/safe-buffer/index.d.ts
+ create mode 100644 node_modules/safe-buffer/index.js
+ create mode 100644 node_modules/safe-buffer/package.json
+ create mode 100644 node_modules/safer-buffer/LICENSE
+ create mode 100644 node_modules/safer-buffer/Porting-Buffer.md
+ create mode 100644 node_modules/safer-buffer/Readme.md
+ create mode 100644 node_modules/safer-buffer/dangerous.js
+ create mode 100644 node_modules/safer-buffer/package.json
+ create mode 100644 node_modules/safer-buffer/safer.js
+ create mode 100644 node_modules/safer-buffer/tests.js
+ create mode 100644 node_modules/send/HISTORY.md
+ create mode 100644 node_modules/send/LICENSE
+ create mode 100644 node_modules/send/README.md
+ create mode 100644 node_modules/send/SECURITY.md
+ create mode 100644 node_modules/send/index.js
+ create mode 100644 node_modules/send/node_modules/ms/index.js
+ create mode 100644 node_modules/send/node_modules/ms/license.md
+ create mode 100644 node_modules/send/node_modules/ms/package.json
+ create mode 100644 node_modules/send/node_modules/ms/readme.md
+ create mode 100644 node_modules/send/package.json
+ create mode 100644 node_modules/serve-static/HISTORY.md
+ create mode 100644 node_modules/serve-static/LICENSE
+ create mode 100644 node_modules/serve-static/README.md
+ create mode 100644 node_modules/serve-static/index.js
+ create mode 100644 node_modules/serve-static/package.json
+ create mode 100644 node_modules/set-function-length/.eslintrc
+ create mode 100644 node_modules/set-function-length/.github/FUNDING.yml
+ create mode 100644 node_modules/set-function-length/.nycrc
+ create mode 100644 node_modules/set-function-length/CHANGELOG.md
+ create mode 100644 node_modules/set-function-length/LICENSE
+ create mode 100644 node_modules/set-function-length/README.md
+ create mode 100644 node_modules/set-function-length/env.d.ts
+ create mode 100644 node_modules/set-function-length/env.js
+ create mode 100644 node_modules/set-function-length/index.d.ts
+ create mode 100644 node_modules/set-function-length/index.js
+ create mode 100644 node_modules/set-function-length/package.json
+ create mode 100644 node_modules/set-function-length/tsconfig.json
+ create mode 100644 node_modules/setprototypeof/LICENSE
+ create mode 100644 node_modules/setprototypeof/README.md
+ create mode 100644 node_modules/setprototypeof/index.d.ts
+ create mode 100644 node_modules/setprototypeof/index.js
+ create mode 100644 node_modules/setprototypeof/package.json
+ create mode 100644 node_modules/setprototypeof/test/index.js
+ create mode 100644 node_modules/side-channel/.editorconfig
+ create mode 100644 node_modules/side-channel/.eslintrc
+ create mode 100644 node_modules/side-channel/.github/FUNDING.yml
+ create mode 100644 node_modules/side-channel/.nycrc
+ create mode 100644 node_modules/side-channel/CHANGELOG.md
+ create mode 100644 node_modules/side-channel/LICENSE
+ create mode 100644 node_modules/side-channel/README.md
+ create mode 100644 node_modules/side-channel/index.d.ts
+ create mode 100644 node_modules/side-channel/index.js
+ create mode 100644 node_modules/side-channel/package.json
+ create mode 100644 node_modules/side-channel/test/index.js
+ create mode 100644 node_modules/side-channel/tsconfig.json
+ create mode 100644 node_modules/statuses/HISTORY.md
+ create mode 100644 node_modules/statuses/LICENSE
+ create mode 100644 node_modules/statuses/README.md
+ create mode 100644 node_modules/statuses/codes.json
+ create mode 100644 node_modules/statuses/index.js
+ create mode 100644 node_modules/statuses/package.json
+ create mode 100644 node_modules/toidentifier/HISTORY.md
+ create mode 100644 node_modules/toidentifier/LICENSE
+ create mode 100644 node_modules/toidentifier/README.md
+ create mode 100644 node_modules/toidentifier/index.js
+ create mode 100644 node_modules/toidentifier/package.json
+ create mode 100644 node_modules/type-is/HISTORY.md
+ create mode 100644 node_modules/type-is/LICENSE
+ create mode 100644 node_modules/type-is/README.md
+ create mode 100644 node_modules/type-is/index.js
+ create mode 100644 node_modules/type-is/package.json
+ create mode 100644 node_modules/unpipe/HISTORY.md
+ create mode 100644 node_modules/unpipe/LICENSE
+ create mode 100644 node_modules/unpipe/README.md
+ create mode 100644 node_modules/unpipe/index.js
+ create mode 100644 node_modules/unpipe/package.json
+ create mode 100644 node_modules/utils-merge/.npmignore
+ create mode 100644 node_modules/utils-merge/LICENSE
+ create mode 100644 node_modules/utils-merge/README.md
+ create mode 100644 node_modules/utils-merge/index.js
+ create mode 100644 node_modules/utils-merge/package.json
+ create mode 100644 node_modules/vary/HISTORY.md
+ create mode 100644 node_modules/vary/LICENSE
+ create mode 100644 node_modules/vary/README.md
+ create mode 100644 node_modules/vary/index.js
+ create mode 100644 node_modules/vary/package.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 src/app.js
+ create mode 100644 {
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git bramc[K[Knch -M main
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git remote add orif[Kgin [7mhttps://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[27mhttps://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+[?2004l[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push or[K[K-u origji[K[Kin main
+[?2004lUsername for 'https://github.com': abogoboga15           aylinc xndaaa
+Password for 'https://aylinxndaaa@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/'
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin mainremote add origin https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin main[K
+[?2004lUsername for 'https://github.com': aylinxndaaa
+Password for 'https://aylinxndaaa@github.com': 
+remote: Permission to aylinxndaaa/jenkins-with-chat-gpt.git denied to aylinxndaaa.
+fatal: unable to access 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/': The requested URL returned error: 403
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main
+[?2004lUsername for 'https://github.com': aylinxndaaa
+Password for 'https://aylinxndaaa@github.com': 
+remote: Permission to aylinxndaaa/jenkins-with-chat-gpt.git denied to aylinxndaaa.
+fatal: unable to access 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git/': The requested URL returned error: 403
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# git push -u origin main[Kgit push -u origin main
+[?2004lUsername for 'https://github.com': aylinxndaaa
+Password for 'https://aylinxndaaa@github.com': 
+Enumerating objects: 618, done.
+Counting objects:   0% (1/618)Counting objects:   1% (7/618)Counting objects:   2% (13/618)Counting objects:   3% (19/618)Counting objects:   4% (25/618)Counting objects:   5% (31/618)Counting objects:   6% (38/618)Counting objects:   7% (44/618)Counting objects:   8% (50/618)Counting objects:   9% (56/618)Counting objects:  10% (62/618)Counting objects:  11% (68/618)Counting objects:  12% (75/618)Counting objects:  13% (81/618)Counting objects:  14% (87/618)Counting objects:  15% (93/618)Counting objects:  16% (99/618)Counting objects:  17% (106/618)Counting objects:  18% (112/618)Counting objects:  19% (118/618)Counting objects:  20% (124/618)Counting objects:  21% (130/618)Counting objects:  22% (136/618)Counting objects:  23% (143/618)Counting objects:  24% (149/618)Counting objects:  25% (155/618)Counting objects:  26% (161/618)Counting objects:  27% (167/618)Counting objects:  28% (174/618)Counting objects:  29% (180/618)Counting objects:  30% (186/618)Counting objects:  31% (192/618)Counting objects:  32% (198/618)Counting objects:  33% (204/618)Counting objects:  34% (211/618)Counting objects:  35% (217/618)Counting objects:  36% (223/618)Counting objects:  37% (229/618)Counting objects:  38% (235/618)Counting objects:  39% (242/618)Counting objects:  40% (248/618)Counting objects:  41% (254/618)Counting objects:  42% (260/618)Counting objects:  43% (266/618)Counting objects:  44% (272/618)Counting objects:  45% (279/618)Counting objects:  46% (285/618)Counting objects:  47% (291/618)Counting objects:  48% (297/618)Counting objects:  49% (303/618)Counting objects:  50% (309/618)Counting objects:  51% (316/618)Counting objects:  52% (322/618)Counting objects:  53% (328/618)Counting objects:  54% (334/618)Counting objects:  55% (340/618)Counting objects:  56% (347/618)Counting objects:  57% (353/618)Counting objects:  58% (359/618)Counting objects:  59% (365/618)Counting objects:  60% (371/618)Counting objects:  61% (377/618)Counting objects:  62% (384/618)Counting objects:  63% (390/618)Counting objects:  64% (396/618)Counting objects:  65% (402/618)Counting objects:  66% (408/618)Counting objects:  67% (415/618)Counting objects:  68% (421/618)Counting objects:  69% (427/618)Counting objects:  70% (433/618)Counting objects:  71% (439/618)Counting objects:  72% (445/618)Counting objects:  73% (452/618)Counting objects:  74% (458/618)Counting objects:  75% (464/618)Counting objects:  76% (470/618)Counting objects:  77% (476/618)Counting objects:  78% (483/618)Counting objects:  79% (489/618)Counting objects:  80% (495/618)Counting objects:  81% (501/618)Counting objects:  82% (507/618)Counting objects:  83% (513/618)Counting objects:  84% (520/618)Counting objects:  85% (526/618)Counting objects:  86% (532/618)Counting objects:  87% (538/618)Counting objects:  88% (544/618)Counting objects:  89% (551/618)Counting objects:  90% (557/618)Counting objects:  91% (563/618)Counting objects:  92% (569/618)Counting objects:  93% (575/618)Counting objects:  94% (581/618)Counting objects:  95% (588/618)Counting objects:  96% (594/618)Counting objects:  97% (600/618)Counting objects:  98% (606/618)Counting objects:  99% (612/618)Counting objects: 100% (618/618)Counting objects: 100% (618/618), done.
+Delta compression using up to 3 threads
+Compressing objects:   0% (1/580)Compressing objects:   1% (6/580)Compressing objects:   2% (12/580)Compressing objects:   3% (18/580)Compressing objects:   4% (24/580)Compressing objects:   5% (29/580)Compressing objects:   6% (35/580)Compressing objects:   7% (41/580)Compressing objects:   8% (47/580)Compressing objects:   9% (53/580)Compressing objects:  10% (58/580)Compressing objects:  11% (64/580)Compressing objects:  12% (70/580)Compressing objects:  13% (76/580)Compressing objects:  14% (82/580)Compressing objects:  15% (87/580)Compressing objects:  16% (93/580)Compressing objects:  17% (99/580)Compressing objects:  18% (105/580)Compressing objects:  19% (111/580)Compressing objects:  20% (116/580)Compressing objects:  21% (122/580)Compressing objects:  22% (128/580)Compressing objects:  23% (134/580)Compressing objects:  24% (140/580)Compressing objects:  25% (145/580)Compressing objects:  26% (151/580)Compressing objects:  27% (157/580)Compressing objects:  28% (163/580)Compressing objects:  29% (169/580)Compressing objects:  30% (174/580)Compressing objects:  31% (180/580)Compressing objects:  32% (186/580)Compressing objects:  33% (192/580)Compressing objects:  34% (198/580)Compressing objects:  35% (203/580)Compressing objects:  36% (209/580)Compressing objects:  37% (215/580)Compressing objects:  38% (221/580)Compressing objects:  39% (227/580)Compressing objects:  40% (232/580)Compressing objects:  41% (238/580)Compressing objects:  42% (244/580)Compressing objects:  43% (250/580)Compressing objects:  44% (256/580)Compressing objects:  45% (261/580)Compressing objects:  46% (267/580)Compressing objects:  47% (273/580)Compressing objects:  48% (279/580)Compressing objects:  49% (285/580)Compressing objects:  50% (290/580)Compressing objects:  51% (296/580)Compressing objects:  52% (302/580)Compressing objects:  53% (308/580)Compressing objects:  54% (314/580)Compressing objects:  55% (319/580)Compressing objects:  56% (325/580)Compressing objects:  57% (331/580)Compressing objects:  58% (337/580)Compressing objects:  59% (343/580)Compressing objects:  60% (348/580)Compressing objects:  61% (354/580)Compressing objects:  62% (360/580)Compressing objects:  63% (366/580)Compressing objects:  64% (372/580)Compressing objects:  65% (377/580)Compressing objects:  66% (383/580)Compressing objects:  67% (389/580)Compressing objects:  68% (395/580)Compressing objects:  69% (401/580)Compressing objects:  70% (406/580)Compressing objects:  71% (412/580)Compressing objects:  72% (418/580)Compressing objects:  73% (424/580)Compressing objects:  74% (430/580)Compressing objects:  75% (435/580)Compressing objects:  76% (441/580)Compressing objects:  77% (447/580)Compressing objects:  78% (453/580)Compressing objects:  79% (459/580)Compressing objects:  80% (464/580)Compressing objects:  81% (470/580)Compressing objects:  82% (476/580)Compressing objects:  83% (482/580)Compressing objects:  84% (488/580)Compressing objects:  85% (493/580)Compressing objects:  86% (499/580)Compressing objects:  87% (505/580)Compressing objects:  88% (511/580)Compressing objects:  89% (517/580)Compressing objects:  90% (522/580)Compressing objects:  91% (528/580)Compressing objects:  92% (534/580)Compressing objects:  93% (540/580)Compressing objects:  94% (546/580)Compressing objects:  95% (551/580)Compressing objects:  96% (557/580)Compressing objects:  97% (563/580)Compressing objects:  98% (569/580)Compressing objects:  99% (575/580)Compressing objects: 100% (580/580)Compressing objects: 100% (580/580), done.
+Writing objects:   0% (1/618)Writing objects:   1% (7/618)Writing objects:   2% (16/618)Writing objects:   3% (21/618)Writing objects:   4% (25/618)Writing objects:   5% (31/618)Writing objects:   6% (38/618)Writing objects:   7% (44/618)Writing objects:   8% (50/618)Writing objects:   9% (57/618)Writing objects:  10% (64/618)Writing objects:  11% (68/618)Writing objects:  12% (75/618)Writing objects:  13% (81/618)Writing objects:  14% (87/618)Writing objects:  15% (93/618)Writing objects:  16% (99/618)Writing objects:  17% (106/618)Writing objects:  18% (112/618)Writing objects:  19% (118/618)Writing objects:  20% (124/618)Writing objects:  21% (130/618)Writing objects:  22% (136/618)Writing objects:  23% (143/618)Writing objects:  24% (149/618)Writing objects:  25% (155/618)Writing objects:  26% (161/618)Writing objects:  27% (167/618)Writing objects:  28% (174/618)Writing objects:  29% (180/618)Writing objects:  30% (186/618)Writing objects:  31% (192/618)Writing objects:  32% (198/618)Writing objects:  33% (204/618)Writing objects:  34% (211/618)Writing objects:  35% (217/618)Writing objects:  36% (223/618)Writing objects:  37% (229/618)Writing objects:  38% (235/618)Writing objects:  39% (242/618)Writing objects:  40% (248/618)Writing objects:  41% (254/618)Writing objects:  42% (260/618)Writing objects:  43% (266/618)Writing objects:  44% (272/618)Writing objects:  45% (279/618)Writing objects:  46% (285/618)Writing objects:  47% (291/618)Writing objects:  48% (297/618)Writing objects:  49% (303/618)Writing objects:  50% (309/618)Writing objects:  51% (316/618)Writing objects:  52% (322/618)Writing objects:  53% (328/618)Writing objects:  54% (334/618)Writing objects:  55% (340/618)Writing objects:  56% (347/618)Writing objects:  57% (353/618)Writing objects:  58% (359/618)Writing objects:  59% (365/618)Writing objects:  60% (371/618)Writing objects:  61% (377/618)Writing objects:  62% (384/618)Writing objects:  63% (390/618)Writing objects:  64% (396/618)Writing objects:  65% (402/618)Writing objects:  66% (408/618)Writing objects:  67% (416/618)Writing objects:  68% (421/618)Writing objects:  69% (427/618)Writing objects:  70% (433/618)Writing objects:  71% (439/618)Writing objects:  72% (445/618)Writing objects:  73% (452/618)Writing objects:  74% (458/618)Writing objects:  75% (464/618)Writing objects:  76% (470/618)Writing objects:  77% (476/618)Writing objects:  78% (483/618)Writing objects:  79% (489/618)Writing objects:  80% (495/618)Writing objects:  81% (501/618)Writing objects:  82% (507/618)Writing objects:  83% (513/618)Writing objects:  84% (520/618)Writing objects:  85% (526/618)Writing objects:  86% (532/618)Writing objects:  87% (538/618)Writing objects:  88% (544/618)Writing objects:  89% (551/618)Writing objects:  90% (557/618)Writing objects:  91% (563/618)Writing objects:  92% (569/618)Writing objects:  93% (575/618)Writing objects:  94% (581/618)Writing objects:  95% (588/618)Writing objects:  96% (594/618)Writing objects:  97% (600/618)Writing objects:  98% (606/618)Writing objects:  99% (612/618)Writing objects: 100% (618/618)Writing objects: 100% (618/618), 685.04 KiB | 5.00 MiB/s, done.
+Total 618 (delta 115), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/115)[Kremote: Resolving deltas:   1% (2/115)[Kremote: Resolving deltas:   2% (3/115)[Kremote: Resolving deltas:   3% (4/115)[Kremote: Resolving deltas:   4% (5/115)[Kremote: Resolving deltas:   5% (6/115)[Kremote: Resolving deltas:   6% (7/115)[Kremote: Resolving deltas:   7% (9/115)[Kremote: Resolving deltas:   8% (10/115)[Kremote: Resolving deltas:   9% (11/115)[Kremote: Resolving deltas:  10% (12/115)[Kremote: Resolving deltas:  11% (13/115)[Kremote: Resolving deltas:  12% (14/115)[Kremote: Resolving deltas:  13% (15/115)[Kremote: Resolving deltas:  14% (17/115)[Kremote: Resolving deltas:  15% (18/115)[Kremote: Resolving deltas:  16% (19/115)[Kremote: Resolving deltas:  17% (20/115)[Kremote: Resolving deltas:  18% (21/115)[Kremote: Resolving deltas:  19% (22/115)[Kremote: Resolving deltas:  20% (23/115)[Kremote: Resolving deltas:  21% (25/115)[Kremote: Resolving deltas:  22% (26/115)[Kremote: Resolving deltas:  23% (27/115)[Kremote: Resolving deltas:  24% (28/115)[Kremote: Resolving deltas:  25% (29/115)[Kremote: Resolving deltas:  26% (30/115)[Kremote: Resolving deltas:  27% (32/115)[Kremote: Resolving deltas:  28% (33/115)[Kremote: Resolving deltas:  29% (34/115)[Kremote: Resolving deltas:  30% (35/115)[Kremote: Resolving deltas:  31% (36/115)[Kremote: Resolving deltas:  32% (37/115)[Kremote: Resolving deltas:  33% (38/115)[Kremote: Resolving deltas:  34% (40/115)[Kremote: Resolving deltas:  35% (41/115)[Kremote: Resolving deltas:  36% (42/115)[Kremote: Resolving deltas:  37% (43/115)[Kremote: Resolving deltas:  38% (44/115)[Kremote: Resolving deltas:  39% (45/115)[Kremote: Resolving deltas:  40% (46/115)[Kremote: Resolving deltas:  41% (48/115)[Kremote: Resolving deltas:  42% (49/115)[Kremote: Resolving deltas:  43% (50/115)[Kremote: Resolving deltas:  44% (51/115)[Kremote: Resolving deltas:  45% (52/115)[Kremote: Resolving deltas:  46% (53/115)[Kremote: Resolving deltas:  47% (55/115)[Kremote: Resolving deltas:  48% (56/115)[Kremote: Resolving deltas:  49% (57/115)[Kremote: Resolving deltas:  50% (58/115)[Kremote: Resolving deltas:  51% (59/115)[Kremote: Resolving deltas:  52% (60/115)[Kremote: Resolving deltas:  53% (61/115)[Kremote: Resolving deltas:  54% (63/115)[Kremote: Resolving deltas:  55% (64/115)[Kremote: Resolving deltas:  56% (65/115)[Kremote: Resolving deltas:  57% (66/115)[Kremote: Resolving deltas:  58% (67/115)[Kremote: Resolving deltas:  59% (68/115)[Kremote: Resolving deltas:  60% (69/115)[Kremote: Resolving deltas:  61% (71/115)[Kremote: Resolving deltas:  62% (72/115)[Kremote: Resolving deltas:  63% (73/115)[Kremote: Resolving deltas:  64% (74/115)[Kremote: Resolving deltas:  65% (75/115)[Kremote: Resolving deltas:  66% (76/115)[Kremote: Resolving deltas:  67% (78/115)[Kremote: Resolving deltas:  68% (79/115)[Kremote: Resolving deltas:  69% (80/115)[Kremote: Resolving deltas:  70% (81/115)[Kremote: Resolving deltas:  71% (82/115)[Kremote: Resolving deltas:  72% (83/115)[Kremote: Resolving deltas:  73% (84/115)[Kremote: Resolving deltas:  74% (86/115)[Kremote: Resolving deltas:  75% (87/115)[Kremote: Resolving deltas:  76% (88/115)[Kremote: Resolving deltas:  77% (89/115)[Kremote: Resolving deltas:  78% (90/115)[Kremote: Resolving deltas:  79% (91/115)[Kremote: Resolving deltas:  80% (92/115)[Kremote: Resolving deltas:  81% (94/115)[Kremote: Resolving deltas:  82% (95/115)[Kremote: Resolving deltas:  83% (96/115)[Kremote: Resolving deltas:  84% (97/115)[Kremote: Resolving deltas:  85% (98/115)[Kremote: Resolving deltas:  86% (99/115)[Kremote: Resolving deltas:  87% (101/115)[Kremote: Resolving deltas:  88% (102/115)[Kremote: Resolving deltas:  89% (103/115)[Kremote: Resolving deltas:  90% (104/115)[Kremote: Resolving deltas:  91% (105/115)[Kremote: Resolving deltas:  92% (106/115)[Kremote: Resolving deltas:  93% (107/115)[Kremote: Resolving deltas:  94% (109/115)[Kremote: Resolving deltas:  95% (110/115)[Kremote: Resolving deltas:  96% (111/115)[Kremote: Resolving deltas:  97% (112/115)[Kremote: Resolving deltas:  98% (113/115)[Kremote: Resolving deltas:  99% (114/115)[Kremote: Resolving deltas: 100% (115/115)[Kremote: Resolving deltas: 100% (115/115), done.[K
+To https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;root@aylin: /home/aylin/my-web-approot@aylin:/home/aylin/my-web-app# vi H[KJenkinsfile 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"Jenkinsfile" 48L, 1213B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hpipeline {
+    agent any[2;14H[K[3;1H[K[4;5Henvironment {[5;9HDOCKER_IMAGE = 'my-web-app'[6;9HDOCKER_CONTAINER = 'my-web-app-container'
+    }[9;5Hstages {[10;9Hstage('Checkout') {[11;13Hsteps [106m{[m[12;17Hgit 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git'[13;13H[106m}[m[14;9H}[16;9Hstage('Build Docker Image') {[17;13Hsteps {[18;17Hscript {[19;21HdockerImage = docker.build("${env.DOCKER_IMAGE}")[20;17H}[21;13H}[22;9H}[24;9Hstage('Run Tests') {[25;13Hsteps {[26;17Hscript {[27;21HdockerImage.inside {[28;25Hsh 'npm test'[29;21H}[30;103H11,19[9CTop[11;19H[?25h[?4m[?12$p[?25l[30;93H~@k[11;19H[30;93H   [12;19H[11;19H{[13;13H}[30;104H2[12;19H[?25h[?25l[30;93H~@k[12;19H[30;93H   [13;13H[11;19H[106m{[13;13H}[m[30;104H3,13[13;13H[?25h[?25l[30;93H~@k[13;13H[30;93H   [12;19H[11;19H{[13;13H}[30;104H2,19[12;19H[?25h[?25l[30;93H~@k[12;19H[30;93H   [11;19H[106m{[13;13H}[m[30;104H1[11;19H[?25h[?25l[30;93H~@k[11;19H[30;93H   [10;19H[11;19H{[13;13H}[30;104H0[10;19H[?25h[?25l[30;93H~@k[10;19H[30;93H   [9;12H[30;103H9,12 [9;12H[?25h[?25l[30;93H~@k[9;12H[30;93H   [8;1H[30;103H8,0-1[8;1H[?25h[?25l[30;93H~@k[8;1H[30;93H   [7;5H[4;17H[106m{[7;5H}[m[30;103H7,5  [7;5H[?25h[?25l[30;93H~@k[7;5H[30;93H   [6;19H[4;17H{[7;5H}[30;103H6,19[6;19H[?25h[?25l[30;93H~@k[6;19H[30;93H   [5;19H[30;103H5[5;19H[?25h[?25l[30;93H~@k[5;19H[30;93H   [4;17H[106m{[7;5H}[m[30;103H4,17[4;17H[?25h[?25l[30;93H~@k[4;17H[30;93H   [3;1H[4;17H{[7;5H}[30;103H3,0-1[3;1H[?25h[?25l[30;93H~@k[3;1H[30;93H   [2;13H[30;103H2,13 [2;13H[?25h[?25l[30;93H~@k[2;13H[30;93H   [1;10H[30;103H1,10[1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;10H[?25h[?25l[30;93H/[1;10H[30;1H[K[30;1H/[?25h [?25l[1;10H[30;103H1,10[10CTop[1;10H[?25h[?25l[30;93H~@k[1;10H[30;93H   [1;9H[30;105H9 [1;9H[?25h[?25l[30;93H~@k[1;9H[30;93H   [1;8H[30;105H8[1;8H[?25h[?25l[30;93H~@k[1;8H[30;93H   [1;7H[30;105H7[1;7H[?25h[?25l[30;93H~@k[1;7H[30;93H   [1;6H[30;105H6[1;6H[?25h[?25l[30;93H~@k[1;6H[30;93H   [1;5H[30;105H5[1;5H[?25h[?25l[30;93H~@k[1;5H[30;93H   [1;4H[30;105H4[1;4H[?25h[?25l[30;93H~@k[1;4H[30;93H   [1;3H[30;105H3[1;3H[?25h[?25l[30;93H~@k[1;3H[30;93H   [1;2H[30;105H2[1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;1H[30;105H1[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Hipeline {[1;10H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Hpeline {[1;9H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Heline {[1;8H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Hline {[1;7H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Hine {[1;6H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1Hne {[1;5H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1He {[1;4H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H {[1;3H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H{[1;2H[K[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[1;1H[K[30;105H0-1[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[30;93Hdl[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [2;1H[30;103H2,1  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H   agent any[2;13H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H  agent any[2;12H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H agent any[2;11H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hagent any[2;10H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hgent any[2;9H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hent any[2;8H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hnt any[2;7H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Ht any[2;6H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H any[2;5H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hany[2;4H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hny[2;3H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1Hy[2;2H[K[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[2;1H[K[30;105H0-1[2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@k[2;1H[30;93H   [2;1H[30;93Hdl[2;1H[30;93H  [2;1H[?25h[?25l[30;93H~@ý[2;1H[30;93H   [6;1H[27m[23m[29m[m[H[2J[1;25Hsh 'npm test'[2;21H}[3;17H}[4;13H}[5;9H}[7;9Hstage('Deploy Docker Container') {[8;13Hsteps {[9;17Hscript {[10;21H// Stop and remove the old container if it exists[11;21Hsh "docker stop ${env.DOCKER_CONTAINER} || true"[12;21Hsh "docker rm ${env.DOCKER_CONTAINER} || true"[14;21H// Run the new container[15;21HdockerImage.run("-d -p 3000:3000 --name ${env.DOCKER_CONTAINER}")[16;17H}[17;13H}[18;9H}
+    }
+}
+
+[94m~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H33,0-1[8CBot[6;1H[?25h[?25l[30;93H~@ý[6;1H[30;93H   [6;1H[1;29r[1;1H[15M[1;30r[15;1H[94m~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H[K[30;103H48,0-1[8CBot[6;1H[?25h[?25l[30;93H~@k[6;1H[30;93H   [6;1H[1;29r[1;1H[L[1;30r[1;21HdockerImage.run("-d -p 3000:3000 --name ${env.DOCKER_CONTAINER}")[30;103H[K[30;103H47,1[10CBot[6;1H[?25h[?25l[30;93H~@k[6;1H[30;93H   [6;5H[1;29r[1;1H[L[1;30r[1;21H// Run the new container[30;103H[K[30;103H46,5[10CBot[6;5H[?25h[?25l[30;93H~@k[6;5H[30;93H   [6;4H[30;106H4[6;4H[?25h[?25l[30;93H~@k[6;4H[30;93H   [6;3H[30;106H3[6;3H[?25h[?25l[30;93H~@k[6;3H[30;93H   [6;2H[30;106H2[6;2H[?25h[?25l[30;93H~@k[6;2H[30;93H   [6;1H[30;106H1[6;1H[?25h[?25l[30;93H~@k[6;1H[30;93H   [6;9H[1;29r[1;1H[L[1;30r[30;103H[K[30;103H45,9[10CBot[6;9H[?25h[?25l[30;93H~@k[6;9H[30;93H   [6;8H[30;106H8[6;8H[?25h[?25l[30;93H~@k[6;8H[30;93H   [6;7H[30;106H7[6;7H[?25h[?25l[30;93H~@k[6;7H[30;93H   [6;6H[30;106H6[6;6H[?25h[?25l[30;93H~@k[6;6H[30;93H   [6;5H[30;106H5[6;5H[?25h[?25l[30;93H~@k[6;5H[30;93H   [6;4H[30;106H4[6;4H[?25h[?25l[30;93H~@k[6;4H[30;93H   [6;3H[30;106H3[6;3H[?25h[?25l[30;93H~@k[6;3H[30;93H   [6;2H[30;106H2[6;2H[?25h[?25l[30;93H~@k[6;2H[30;93H   [6;1H[30;106H1[6;1H[?25h[?25l[30;93H~@k[6;1H[30;93H   [6;13H[1;29r[1;1H[L[1;30r[1;21Hsh "docker rm ${env.DOCKER_CONTAINER} || true"[30;103H[K[30;103H44,13[9CBot[6;13H[?25h[?25l[30;93H~@k[6;13H[30;93H   [6;12H[30;107H2[6;12H[?25h[?25l[30;93H~@k[6;12H[30;93H   [6;11H[30;107H1[6;11H[?25h[?25l[30;93H~@k[6;11H[30;93H   [6;10H[30;107H0[6;10H[?25h[?25l[30;93H~@k[6;10H[30;93H   [6;9H[30;106H9 [6;9H[?25h[?25l[30;93H~@k[6;9H[30;93H   [6;8H[30;106H8[6;8H[?25h[?25l[30;93H~@k[6;8H[30;93H   [6;7H[30;106H7[6;7H[?25h[?25l[30;93H~@k[6;7H[30;93H   [6;6H[30;106H6[6;6H[?25h[?25l[30;93H~@k[6;6H[30;93H   [6;5H[30;106H5[6;5H[?25h[?25l[30;93H~@k[6;5H[30;93H   [6;4H[30;106H4[6;4H[?25h[?25l[30;93H~@k[6;4H[30;93H   [6;3H[30;106H3[6;3H[?25h[?25l[30;93H~@k[6;3H[30;93H   [6;2H[30;106H2[6;2H[?25h[?25l[30;93H~@k[6;2H[30;93H   [6;1H[30;106H1[6;1H[?25h[?25l[30;93H~@k[6;1H[30;93H   [6;17H[1;29r[1;1H[L[1;30r[1;21Hsh "docker stop ${env.DOCKER_CONTAINER} || true"[30;103H[K[30;103H43,17[9CBot[6;17H[?25h[?25l[30;93H~@k[6;17H[30;93H   [6;17H[30;1H[1m-- INSERT --[m[30;103H[K[30;103H43,17[9CBot[6;17H[?25h[?25l[1;29r[1;1H[L[1;30r[1;21H// Stop and remove the old container if it exists[30;103H[K[30;103H42,17[9CBot[6;17H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17Hscript {[30;103H[K[30;103H41,17[9CBot[6;17H[?25h[?25l[30;104H2[7;17H[?25h[?25l[1;24H[106m{[8;17H}[m[30;104H3[8;17H[?25h[?25l[1;24H{[8;17H}[30;104H4,14[9;14H[?25h[?25l[30;104H5,10[10;10H[?25h[?25l[30;104H6,6 [11;6H[?25h[?25l[30;104H7,2[12;2H[?25h[?25l[30;104H8,1[13;1H[?25h[?25l[94m~                                                                                                                       [m[30;104H7,2[12;2H[?25h[?25l[12;1H[K[30;106H1[12;1H[?25h[?25l[94m~                                                                                                                       [m[30;104H6,6[11;6H[?25h[?25l[11;5H[K[30;106H5[11;5H[?25h[?25l[30;106H4[11;4H[?25h[?25l[30;106H3[11;3H[?25h[?25l[30;106H2[11;2H[?25h[?25l[30;106H1[11;1H[?25h[?25l[94m~                                                                                                                       [m[30;104H5,10[10;10H[?25h[?25l[10;9H[K[30;106H9 [10;9H[?25h[?25l[30;106H8[10;8H[?25h[?25l[30;106H7[10;7H[?25h[?25l[30;106H6[10;6H[?25h[?25l[30;106H5[10;5H[?25h[?25l[30;106H4[10;4H[?25h[?25l[30;106H3[10;3H[?25h[?25l[30;106H2[10;2H[?25h[?25l[30;106H1[10;1H[?25h[?25l[94m~                                                                                                                       [m[30;104H4,14[9;14H[?25h[?25l[9;13H[K[30;107H3[9;13H[?25h[?25l[30;107H2[9;12H[?25h[?25l[30;107H1[9;11H[?25h[?25l[30;107H0[9;10H[?25h[?25l[30;106H9 [9;9H[?25h[?25l[30;106H8[9;8H[?25h[?25l[30;106H7[9;7H[?25h[?25l[30;106H6[9;6H[?25h[?25l[30;106H5[9;5H[?25h[?25l[30;106H4[9;4H[?25h[?25l[30;106H3[9;3H[?25h[?25l[30;106H2[9;2H[?25h[?25l[30;106H1[9;1H[?25h[?25l[1;24H[106m{[8;17H}[m
+[94m~                                                                                                                       [m[30;104H3,18[8;18H[?25h[?25l[1;24H{[8;17H[K[30;107H7[8;17H[?25h[?25l[30;107H6[8;16H[?25h[?25l[30;107H5[8;15H[?25h[?25l[30;107H4[8;14H[?25h[?25l[30;107H3[8;13H[?25h[?25l[30;107H2[8;12H[?25h[?25l[30;107H1[8;11H[?25h[?25l[30;107H0[8;10H[?25h[?25l[30;106H9 [8;9H[?25h[?25l[30;106H8[8;8H[?25h[?25l[30;106H7[8;7H[?25h[?25l[30;106H6[8;6H[?25h[?25l[30;106H5[8;5H[?25h[?25l[30;106H4[8;4H[?25h[?25l[30;106H3[8;3H[?25h[?25l[30;106H2[8;2H[?25h[?25l[30;106H1[8;1H[?25h[?25l[7;36H[106m([48C)[m
+[94m~                                                                                                                       [m[30;104H2,86[7;86H[?25h[?25l[7;36H([7;85H[K[30;107H5[7;85H[?25h[?25l[7;62H[106m{[20C}[m[7;84H[K[30;107H4[7;84H[?25h[?25l[7;62H{[7;83H[K[30;107H3[7;83H[?25h[?25l[7;82H[K[30;107H2[7;82H[?25h[?25l[7;81H[K[30;107H1[7;81H[?25h[?25l[7;80H[K[30;107H0[7;80H[?25h[?25l[7;79H[K[30;106H79[7;79H[?25h[?25l[7;78H[K[30;107H8[7;78H[?25h[?25l[7;77H[K[30;107H7[7;77H[?25h[?25l[7;76H[K[30;107H6[7;76H[?25h[?25l[7;75H[K[30;107H5[7;75H[?25h[?25l[7;74H[K[30;107H4[7;74H[?25h[?25l[7;73H[K[30;107H3[7;73H[?25h[?25l[7;72H[K[30;107H2[7;72H[?25h[?25l[7;71H[K[30;107H1[7;71H[?25h[?25l[7;70H[K[30;107H0[7;70H[?25h[?25l[7;69H[K[30;106H69[7;69H[?25h[?25l[7;68H[K[30;107H8[7;68H[?25h[?25l[7;67H[K[30;107H7[7;67H[?25h[?25l[7;66H[K[30;107H6[7;66H[?25h[?25l[7;65H[K[30;107H5[7;65H[?25h[?25l[7;64H[K[30;107H4[7;64H[?25h[?25l[7;63H[K[30;107H3[7;63H[?25h[?25l[7;62H[K[30;107H2[7;62H[?25h[?25l[7;61H[K[30;107H0[7;60H[?25h[?25l[7;59H[K[30;106H59[7;59H[?25h[?25l[7;58H[K[30;107H8[7;58H[?25h[?25l[7;57H[K[30;107H7[7;57H[?25h[?25l[7;56H[K[30;107H6[7;56H[?25h[?25l[7;55H[K[30;107H5[7;55H[?25h[?25l[7;54H[K[30;107H4[7;54H[?25h[?25l[30;107H3[7;53H[?25h[?25l[7;52H[K[30;107H2[7;52H[?25h[?25l[7;51H[K[30;107H1[7;51H[?25h[?25l[7;50H[K[30;107H0[7;50H[?25h[?25l[7;49H[K[30;106H49[7;49H[?25h[?25l[7;48H[K[30;107H8[7;48H[?25h[?25l[7;47H[K[30;107H7[7;47H[?25h[?25l[7;46H[K[30;107H6[7;46H[?25h[?25l[7;45H[K[30;107H5[7;45H[?25h[?25l[7;44H[K[30;107H4[7;44H[?25h[?25l[30;107H3[7;43H[?25h[?25l[7;42H[K[30;107H2[7;42H[?25h[?25l[7;41H[K[30;107H1[7;41H[?25h[?25l[30;107H0[7;40H[?25h[?25l[7;39H[K[30;106H39[7;39H[?25h[?25l[7;38H[K[30;107H8[7;38H[?25h[?25l[7;37H[K[30;107H7[7;37H[?25h[?25l[7;36H[K[30;107H6[7;36H[?25h[?25l[7;35H[K[30;107H5[7;35H[?25h[?25l[7;34H[K[30;107H4[7;34H[?25h[?25l[7;33H[K[30;107H3[7;33H[?25h[?25l[7;32H[K[30;107H2[7;32H[?25h[?25l[7;31H[K[30;107H1[7;31H[?25h[?25l[7;30H[K[30;107H0[7;30H[?25h[?25l[7;29H[K[30;106H29[7;29H[?25h[?25l[7;28H[K[30;107H8[7;28H[?25h[?25l[7;27H[K[30;107H7[7;27H[?25h[?25l[7;26H[K[30;107H6[7;26H[?25h[?25l[7;25H[K[30;107H5[7;25H[?25h[?25l[7;24H[K[30;107H4[7;24H[?25h[?25l[7;23H[K[30;107H3[7;23H[?25h[?25l[7;22H[K[30;107H2[7;22H[?25h[?25l[7;21H[K[30;107H1[7;21H[?25h[?25l[30;107H0[7;20H[?25h[?25l[30;106H19[7;19H[?25h[?25l[30;107H8[7;18H[?25h[?25l[30;107H7[7;17H[?25h[?25l[30;107H6[7;16H[?25h[?25l[30;107H5[7;15H[?25h[?25l[30;107H4[7;14H[?25h[?25l[30;107H3[7;13H[?25h[?25l[30;107H2[7;12H[?25h[?25l[30;107H1[7;11H[?25h[?25l[30;107H0[7;10H[?25h[?25l[30;106H9 [7;9H[?25h[?25l[30;106H8[7;8H[?25h[?25l[30;106H7[7;7H[?25h[?25l[30;106H6[7;6H[?25h[?25l[30;106H5[7;5H[?25h[?25l[30;106H4[7;4H[?25h[?25l[30;106H3[7;3H[?25h[?25l[30;106H2[7;2H[?25h[?25l[30;106H1[7;1H[?25h[?25l[94m~                                                                                                                       [m[30;104H1,45[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[6;43H[K[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13Hsteps {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H40,21[9CBot[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9Hstage('Deploy Docker Container') {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H39,67[9CBot[6;67H[?25h[?25l[6;66H[K[30;107H6[6;66H[?25h[?25l[6;65H[K[30;107H5[6;65H[?25h[?25l[6;64H[K[30;107H4[6;64H[?25h[?25l[6;63H[K[30;107H3[6;63H[?25h[?25l[6;62H[K[30;107H2[6;62H[?25h[?25l[30;107H1[6;61H[?25h[?25l[6;60H[K[30;107H0[6;60H[?25h[?25l[6;59H[K[30;106H59[6;59H[?25h[?25l[6;36H[106m{[20C}[m[30;107H8[6;58H[?25h[?25l[6;36H{[6;57H[K[30;107H7[6;57H[?25h[?25l[6;56H[K[30;107H6[6;56H[?25h[?25l[6;55H[K[30;107H5[6;55H[?25h[?25l[6;54H[K[30;107H4[6;54H[?25h[?25l[6;53H[K[30;107H3[6;53H[?25h[?25l[6;52H[K[30;107H2[6;52H[?25h[?25l[6;51H[K[30;107H1[6;51H[?25h[?25l[6;50H[K[30;107H0[6;50H[?25h[?25l[6;49H[K[30;106H49[6;49H[?25h[?25l[6;48H[K[30;107H8[6;48H[?25h[?25l[6;47H[K[30;107H7[6;47H[?25h[?25l[6;46H[K[30;107H6[6;46H[?25h[?25l[6;45H[K[30;107H5[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[6;43H[K[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H38,69[9CBot[6;69H[?25h[?25l[6;68H[K[30;107H8[6;68H[?25h[?25l[6;67H[K[30;107H7[6;67H[?25h[?25l[6;66H[K[30;107H6[6;66H[?25h[?25l[6;65H[K[30;107H5[6;65H[?25h[?25l[6;64H[K[30;107H4[6;64H[?25h[?25l[30;107H3[6;63H[?25h[?25l[6;62H[K[30;107H2[6;62H[?25h[?25l[6;61H[K[30;107H1[6;61H[?25h[?25l[6;38H[106m{[20C}[m[30;107H0[6;60H[?25h[?25l[6;38H{[6;59H[K[30;106H59[6;59H[?25h[?25l[6;58H[K[30;107H8[6;58H[?25h[?25l[6;57H[K[30;107H7[6;57H[?25h[?25l[6;56H[K[30;107H6[6;56H[?25h[?25l[6;55H[K[30;107H5[6;55H[?25h[?25l[6;54H[K[30;107H4[6;54H[?25h[?25l[6;53H[K[30;107H3[6;53H[?25h[?25l[6;52H[K[30;107H2[6;52H[?25h[?25l[6;51H[K[30;107H1[6;51H[?25h[?25l[6;50H[K[30;107H0[6;50H[?25h[?25l[6;49H[K[30;106H49[6;49H[?25h[?25l[6;48H[K[30;107H8[6;48H[?25h[?25l[6;47H[K[30;107H7[6;47H[?25h[?25l[6;46H[K[30;107H6[6;46H[?25h[?25l[6;45H[K[30;107H5[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[6;43H[K[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H37,70[9CBot[6;70H[?25h[?25l[6;69H[K[30;106H69[6;69H[?25h[?25l[6;68H[K[30;107H8[6;68H[?25h[?25l[6;67H[K[30;107H7[6;67H[?25h[?25l[6;66H[K[30;107H6[6;66H[?25h[?25l[6;65H[K[30;107H5[6;65H[?25h[?25l[6;64H[K[30;107H4[6;64H[?25h[?25l[30;107H3[6;63H[?25h[?25l[6;62H[K[30;107H2[6;62H[?25h[?25l[6;61H[K[30;107H1[6;61H[?25h[?25l[30;107H0[6;60H[?25h[?25l[6;59H[K[30;106H59[6;59H[?25h[?25l[6;58H[K[30;107H8[6;58H[?25h[?25l[30;107H7[6;57H[?25h[?25l[6;56H[K[30;107H6[6;56H[?25h[?25l[6;55H[K[30;107H5[6;55H[?25h[?25l[6;54H[K[30;107H4[6;54H[?25h[?25l[6;53H[K[30;107H3[6;53H[?25h[?25l[6;52H[K[30;107H2[6;52H[?25h[?25l[6;51H[K[30;107H1[6;51H[?25h[?25l[6;50H[K[30;107H0[6;50H[?25h[?25l[6;49H[K[30;106H49[6;49H[?25h[?25l[6;48H[K[30;107H8[6;48H[?25h[?25l[30;107H7[6;47H[?25h[?25l[6;46H[K[30;107H6[6;46H[?25h[?25l[6;45H[K[30;107H5[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H36,25[9CBot[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H35,20[9CBot[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;21H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H34,43[9CBot[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;14H[106m([25C)[m[30;107H1[6;41H[?25h[?25l[6;14H([6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[6;12H[K[30;107H2[6;12H[?25h[?25l[6;11H[K[30;107H1[6;11H[?25h[?25l[6;10H[K[30;107H0[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;25Hsh 'npm test'[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H33,1[10CBot[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;21HdockerImage.inside {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H32,10[9CBot[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17Hscript {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H31,14[9CBot[6;14H[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13Hsteps {[2;24H[106m{[6;17H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H30,18[9CBot[6;18H[?25h[?25l[2;24H{[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9Hstage('Run Tests') {[4;40H[106m{[6;21H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H29,22[9CBot[6;22H[?25h[?25l[4;40H{[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H28,38[9CBot[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[30;107H2[6;22H[?25h[?25l[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H27,41[9CBot[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H26,25[9CBot[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H25,20[9CBot[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;21HdockerImage = docker.build("${env.DOCKER_IMAGE}")[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H24,29[9CBot[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;14H[106m([11C)[m[30;107H7[6;27H[?25h[?25l[6;14H([6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[6;12H[K[30;107H2[6;12H[?25h[?25l[6;11H[K[30;107H1[6;11H[?25h[?25l[6;10H[K[30;107H0[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17Hscript {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H23,1[10CBot[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13Hsteps {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H22,10[9CBot[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9Hstage('Build Docker Image') {[2;19H[106m{[6;13H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H21,14[9CBot[6;14H[?25h[?25l[2;19H{[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[4;24H[106m{[6;17H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H20,18[9CBot[6;18H[?25h[?25l[4;24H{[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9H}[6;47H[106m([21C)[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H19,70[9CBot[6;70H[?25h[?25l[6;47H([6;69H[K[30;106H69[6;69H[?25h[?25l[6;50H[106m{[16C}[m[6;68H[K[30;107H8[6;68H[?25h[?25l[6;50H{[6;67H[K[30;107H7[6;67H[?25h[?25l[6;66H[K[30;107H6[6;66H[?25h[?25l[6;65H[K[30;107H5[6;65H[?25h[?25l[6;64H[K[30;107H4[6;64H[?25h[?25l[6;63H[K[30;107H3[6;63H[?25h[?25l[6;62H[K[30;107H2[6;62H[?25h[?25l[6;61H[K[30;107H1[6;61H[?25h[?25l[6;60H[K[30;107H0[6;60H[?25h[?25l[6;59H[K[30;106H59[6;59H[?25h[?25l[6;58H[K[30;107H8[6;58H[?25h[?25l[6;57H[K[30;107H7[6;57H[?25h[?25l[6;56H[K[30;107H6[6;56H[?25h[?25l[6;55H[K[30;107H5[6;55H[?25h[?25l[6;54H[K[30;107H4[6;54H[?25h[?25l[6;53H[K[30;107H3[6;53H[?25h[?25l[6;52H[K[30;107H2[6;52H[?25h[?25l[6;51H[K[30;107H1[6;51H[?25h[?25l[6;50H[K[30;107H0[6;50H[?25h[?25l[6;49H[K[30;106H49[6;49H[?25h[?25l[6;48H[K[30;107H8[6;48H[?25h[?25l[6;47H[K[30;107H7[6;47H[?25h[?25l[6;46H[K[30;107H6[6;46H[?25h[?25l[6;45H[K[30;107H5[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[6;43H[K[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H18,25[9CBot[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;17Hgit 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git'[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H17,20[9CBot[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;13Hsteps {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H16,38[9CBot[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;14H[106m([20C)[m[30;107H6[6;36H[?25h[?25l[6;14H([6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[6;12H[K[30;107H2[6;12H[?25h[?25l[6;11H[K[30;107H1[6;11H[?25h[?25l[6;10H[K[30;107H0[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9Hstage('Checkout') {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H15,1[10CBot[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;5Hstages {[2;27H[106m{[6;9H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H14,10[9CBot[6;10H[?25h[?25l[2;27H{[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[4;19H[106m{[6;13H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H13,14[9CBot[6;14H[?25h[?25l[4;19H{[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;5H}[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H12,79[9CBot[6;79H[?25h[?25l[6;78H[K[30;107H8[6;78H[?25h[?25l[6;77H[K[30;107H7[6;77H[?25h[?25l[6;76H[K[30;107H6[6;76H[?25h[?25l[6;75H[K[30;107H5[6;75H[?25h[?25l[6;74H[K[30;107H4[6;74H[?25h[?25l[6;73H[K[30;107H3[6;73H[?25h[?25l[6;72H[K[30;107H2[6;72H[?25h[?25l[6;71H[K[30;107H1[6;71H[?25h[?25l[6;70H[K[30;107H0[6;70H[?25h[?25l[6;69H[K[30;106H69[6;69H[?25h[?25l[6;68H[K[30;107H8[6;68H[?25h[?25l[6;67H[K[30;107H7[6;67H[?25h[?25l[6;66H[K[30;107H6[6;66H[?25h[?25l[6;65H[K[30;107H5[6;65H[?25h[?25l[6;64H[K[30;107H4[6;64H[?25h[?25l[6;63H[K[30;107H3[6;63H[?25h[?25l[6;62H[K[30;107H2[6;62H[?25h[?25l[6;61H[K[30;107H1[6;61H[?25h[?25l[6;60H[K[30;107H0[6;60H[?25h[?25l[6;59H[K[30;106H59[6;59H[?25h[?25l[6;58H[K[30;107H8[6;58H[?25h[?25l[6;57H[K[30;107H7[6;57H[?25h[?25l[6;56H[K[30;107H6[6;56H[?25h[?25l[6;55H[K[30;107H5[6;55H[?25h[?25l[6;54H[K[30;107H4[6;54H[?25h[?25l[6;53H[K[30;107H3[6;53H[?25h[?25l[6;52H[K[30;107H2[6;52H[?25h[?25l[6;51H[K[30;107H1[6;51H[?25h[?25l[6;50H[K[30;107H0[6;50H[?25h[?25l[6;49H[K[30;106H49[6;49H[?25h[?25l[6;48H[K[30;107H8[6;48H[?25h[?25l[6;47H[K[30;107H7[6;47H[?25h[?25l[6;46H[K[30;107H6[6;46H[?25h[?25l[6;45H[K[30;107H5[6;45H[?25h[?25l[6;44H[K[30;107H4[6;44H[?25h[?25l[6;43H[K[30;107H3[6;43H[?25h[?25l[6;42H[K[30;107H2[6;42H[?25h[?25l[6;41H[K[30;107H1[6;41H[?25h[?25l[6;40H[K[30;107H0[6;40H[?25h[?25l[6;39H[K[30;106H39[6;39H[?25h[?25l[6;38H[K[30;107H8[6;38H[?25h[?25l[6;37H[K[30;107H7[6;37H[?25h[?25l[6;36H[K[30;107H6[6;36H[?25h[?25l[6;35H[K[30;107H5[6;35H[?25h[?25l[6;34H[K[30;107H4[6;34H[?25h[?25l[6;33H[K[30;107H3[6;33H[?25h[?25l[6;32H[K[30;107H2[6;32H[?25h[?25l[6;31H[K[30;107H1[6;31H[?25h[?25l[6;30H[K[30;107H0[6;30H[?25h[?25l[6;29H[K[30;106H29[6;29H[?25h[?25l[6;28H[K[30;107H8[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;26H[K[30;107H6[6;26H[?25h[?25l[6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[30;107H6[6;16H[?25h[?25l[30;107H5[6;15H[?25h[?25l[30;107H4[6;14H[?25h[?25l[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9HDOCKER_CONTAINER = 'my-web-app-container'[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H11,20[9CBot[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[30;107H2[6;12H[?25h[?25l[30;107H1[6;11H[?25h[?25l[30;107H0[6;10H[?25h[?25l[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;9HDOCKER_IMAGE = 'my-web-app'[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H10,28[9CBot[6;28H[?25h[?25l[6;27H[K[30;107H7[6;27H[?25h[?25l[6;14H[106m([10C)[m[30;107H6[6;26H[?25h[?25l[6;14H([6;25H[K[30;107H5[6;25H[?25h[?25l[6;24H[K[30;107H4[6;24H[?25h[?25l[6;23H[K[30;107H3[6;23H[?25h[?25l[6;22H[K[30;107H2[6;22H[?25h[?25l[6;21H[K[30;107H1[6;21H[?25h[?25l[6;20H[K[30;107H0[6;20H[?25h[?25l[6;19H[K[30;106H19[6;19H[?25h[?25l[6;18H[K[30;107H8[6;18H[?25h[?25l[6;17H[K[30;107H7[6;17H[?25h[?25l[6;16H[K[30;107H6[6;16H[?25h[?25l[6;15H[K[30;107H5[6;15H[?25h[?25l[6;14H[K[30;107H4[6;14H[?25h[?25l[6;13H[K[30;107H3[6;13H[?25h[?25l[6;12H[K[30;107H2[6;12H[?25h[?25l[6;11H[K[30;107H1[6;11H[?25h[?25l[6;10H[K[30;107H0[6;10H[?25h[?25l[6;9H[K[30;106H9 [6;9H[?25h[?25l[30;106H8[6;8H[?25h[?25l[30;106H7[6;7H[?25h[?25l[30;106H6[6;6H[?25h[?25l[30;106H5[6;5H[?25h[?25l[30;106H4[6;4H[?25h[?25l[30;106H3[6;3H[?25h[?25l[30;106H2[6;2H[?25h[?25l[30;106H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[1;5Henvironment {[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H9,13[10CBot[6;13H[?25h[?25l[6;12H[K[30;106H2[6;12H[?25h[?25l[30;106H1[6;11H[?25h[?25l[6;10H[K[30;106H0[6;10H[?25h[?25l[6;9H[K[30;105H9 [6;9H[?25h[?25l[6;8H[K[30;105H8[6;8H[?25h[?25l[6;7H[K[30;105H7[6;7H[?25h[?25l[6;6H[K[30;105H6[6;6H[?25h[?25l[6;5H[K[30;105H5[6;5H[?25h[?25l[30;105H4[6;4H[?25h[?25l[30;105H3[6;3H[?25h[?25l[30;105H2[6;2H[?25h[?25l[30;105H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H8,1[11CBot[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[3;17H[106m{[6;5H}[m
+[94m~                                                                                                                       [m[30;103H[K[30;103H7,6[11CBot[6;6H[?25h[?25l[3;17H{[6;5H[K[30;105H5[6;5H[?25h[?25l[30;105H4[6;4H[?25h[?25l[30;105H3[6;3H[?25h[?25l[30;105H2[6;2H[?25h[?25l[30;105H1[6;1H[?25h[?25l[1;29r[1;1H[L[1;30r[7;1H[94m~                                                                                                                       [m[30;103H[K[30;103H6,50[10CAll[6;50H[?25h[?25l[6;49H[K[30;105H49[6;49H[?25h[?25l[6;48H[K[30;106H8[6;48H[?25h[?25l[6;47H[K[30;106H7[6;47H[?25h[?25l[6;46H[K[30;106H6[6;46H[?25h[?25l[6;45H[K[30;106H5[6;45H[?25h[?25l[6;44H[K[30;106H4[6;44H[?25h[?25l[6;43H[K[30;106H3[6;43H[?25h[?25l[6;42H[K[30;106H2[6;42H[?25h[?25l[6;41H[K[30;106H1[6;41H[?25h[?25l[6;40H[K[30;106H0[6;40H[?25h[?25l[6;39H[K[30;105H39[6;39H[?25h[?25l[6;38H[K[30;106H8[6;38H[?25h[?25l[6;37H[K[30;106H7[6;37H[?25h[?25l[6;36H[K[30;106H6[6;36H[?25h[?25l[6;35H[K[30;106H5[6;35H[?25h[?25l[6;34H[K[30;106H4[6;34H[?25h[?25l[6;33H[K[30;106H3[6;33H[?25h[?25l[6;32H[K[30;106H2[6;32H[?25h[?25l[6;31H[K[30;106H1[6;31H[?25h[?25l[6;30H[K[30;106H0[6;30H[?25h[?25l[6;29H[K[30;105H29[6;29H[?25h[?25l[6;28H[K[30;106H8[6;28H[?25h[?25l[30;106H7[6;27H[?25h[?25l[6;26H[K[30;106H6[6;26H[?25h[?25l[30;106H5[6;25H[?25h[?25l[6;24H[K[30;106H4[6;24H[?25h[?25l[6;23H[K[30;106H3[6;23H[?25h[?25l[6;22H[K[30;106H2[6;22H[?25h[?25l[6;21H[K[30;106H1[6;21H[?25h[?25l[6;20H[K[30;106H0[6;20H[?25h[?25l[6;19H[K[30;105H19[6;19H[?25h[?25l[6;18H[K[30;106H8[6;18H[?25h[?25l[6;17H[K[30;106H7[6;17H[?25h[?25l[6;16H[K[30;106H6[6;16H[?25h[?25l[6;15H[K[30;106H5[6;15H[?25h[?25l[6;14H[K[30;106H4[6;14H[?25h[?25l[6;13H[K[30;106H3[6;13H[?25h[?25l[6;12H[K[30;106H2[6;12H[?25h[?25l[6;11H[K[30;106H1[6;11H[?25h[?25l[6;10H[K[30;106H0[6;10H[?25h[?25l[6;9H[K[30;105H9 [6;9H[?25h[?25l[30;105H8[6;8H[?25h[?25l[30;105H7[6;7H[?25h[?25l[30;105H6[6;6H[?25h[?25l[30;105H5[6;5H[?25h[?25l[30;105H4[6;4H[?25h[?25l[30;105H3[6;3H[?25h[?25l[30;105H2[6;2H[?25h[?25l[30;105H1[6;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H5,36[5;36H[?25h[?25l[5;35H[K[30;106H5[5;35H[?25h[?25l[5;34H[K[30;106H4[5;34H[?25h[?25l[5;33H[K[30;106H3[5;33H[?25h[?25l[5;32H[K[30;106H2[5;32H[?25h[?25l[5;31H[K[30;106H1[5;31H[?25h[?25l[5;30H[K[30;106H0[5;30H[?25h[?25l[5;29H[K[30;105H29[5;29H[?25h[?25l[5;28H[K[30;106H8[5;28H[?25h[?25l[5;27H[K[30;106H7[5;27H[?25h[?25l[5;26H[K[30;106H6[5;26H[?25h[?25l[5;25H[K[30;106H5[5;25H[?25h[?25l[5;24H[K[30;106H4[5;24H[?25h[?25l[30;106H3[5;23H[?25h[?25l[5;22H[K[30;106H2[5;22H[?25h[?25l[30;106H1[5;21H[?25h[?25l[5;20H[K[30;106H0[5;20H[?25h[?25l[5;19H[K[30;105H19[5;19H[?25h[?25l[5;18H[K[30;106H8[5;18H[?25h[?25l[5;17H[K[30;106H7[5;17H[?25h[?25l[5;16H[K[30;106H6[5;16H[?25h[?25l[5;15H[K[30;106H5[5;15H[?25h[?25l[5;14H[K[30;106H4[5;14H[?25h[?25l[5;13H[K[30;106H3[5;13H[?25h[?25l[5;12H[K[30;106H2[5;12H[?25h[?25l[5;11H[K[30;106H1[5;11H[?25h[?25l[5;10H[K[30;106H0[5;10H[?25h[?25l[5;9H[K[30;105H9 [5;9H[?25h[?25l[30;105H8[5;8H[?25h[?25l[30;105H7[5;7H[?25h[?25l[30;105H6[5;6H[?25h[?25l[30;105H5[5;5H[?25h[?25l[30;105H4[5;4H[?25h[?25l[30;105H3[5;3H[?25h[?25l[30;105H2[5;2H[?25h[?25l[30;105H1[5;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H4,18[4;18H[?25h[?25l[4;17H[K[30;106H7[4;17H[?25h[?25l[30;106H6[4;16H[?25h[?25l[4;15H[K[30;106H5[4;15H[?25h[?25l[4;14H[K[30;106H4[4;14H[?25h[?25l[4;13H[K[30;106H3[4;13H[?25h[?25l[4;12H[K[30;106H2[4;12H[?25h[?25l[4;11H[K[30;106H1[4;11H[?25h[?25l[4;10H[K[30;106H0[4;10H[?25h[?25l[4;9H[K[30;105H9 [4;9H[?25h[?25l[4;8H[K[30;105H8[4;8H[?25h[?25l[4;7H[K[30;105H7[4;7H[?25h[?25l[4;6H[K[30;105H6[4;6H[?25h[?25l[4;5H[K[30;105H5[4;5H[?25h[?25l[30;105H4[4;4H[?25h[?25l[30;105H3[4;3H[?25h[?25l[30;105H2[4;2H[?25h[?25l[30;105H1[4;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H3[3;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H2[2;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H1[1;1H[?25h[?25lpipeline {
+    agent any[2;14H[K[3;1H[K[4;1H    environment {[4;18H[K[5;1H    [5;5H[K[5;5H[?25h[?25l    DOCKER_IMAGE = 'my-web-app'
+        DOCKER_CONTAINER [6;26H[K[6;26H[?25h[?25l= 'my-web-app-container'
+    }[7;6H[K[8;1H[K[9;1H    stages {[9;13H[K[10;1H        stage([10;15H[K[10;15H[?25h[?25l'Checkout') {
+            steps {[11;20H[K[12;1H                git([12;21H[K[13;1H      [13;7H[K[13;7H[?25h[?25l[14Curl: 'https://github.com/aylinxndaaa/jenkins-wi[?25h[?25lth-chat-gpt.git',
+                    branch: 'main',[14;36H[K[15;1H        [15;9H[K[15;9H[?25h[?25l[12CcredentialsId: 'PAT_Jenkins' // Ganti dengan ID kr[?25h[?25ledensial yang benar
+                )[16;18H[K[17;1H            }[17;14H[K[18;1H        }[18;10H[K[19;1H[K[20;1H[K[20;1H[?25h[?25l[8Cstage('Build Docker Image') {
+            steps {[21;20H[K[22;1H     [22;6H[K[22;6H[?25h[?25l[11Cscript {
+                    dockerImage = docker.bu[23;44H[K[23;44H[?25h[?25lild("${env.DOCKER_IMAGE}")
+                }[24;18H[K[25;1H            }[25;14H[K[26;1H    [26;5H[K[26;5H[?25h[?25l    }[27;1H[K[28;1H        stage('Run Tests') {[28;29H[K[29;1H            steps {[29;20H[K[1;29r[29;1H
+[1;30r[30;11H[1m(paste) --[m[30;103H[K[29;8H[?25h[?25l[9Cscript {    [?25h[?25l[1;29r[1;1H[2M[1;30r[28;21HdockerImage.inside {[29;25Hsh 'npm test'[29;8H[?25h[?25l[1;29r[1;1H[2M[1;30r[28;21H}[29;17H}[10C[?25h[?25l[1;29r[1;1H[4M[1;30r[26;13H}[27;9H}[29;9Hstage('Deploy Docker Container') {  [?25h[?2

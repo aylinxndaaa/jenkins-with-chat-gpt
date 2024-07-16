@@ -9,7 +9,11 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git'
+                git(
+                    url: 'https://github.com/aylinxndaaa/jenkins-with-chat-gpt.git',
+                    branch: 'main',
+                    credentialsId: 'PAT_Jenkins' // Ganti dengan ID kredensial yang benar
+                )
             }
         }
 
