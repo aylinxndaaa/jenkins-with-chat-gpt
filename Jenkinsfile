@@ -43,7 +43,7 @@ pipeline {
                     sh "docker rm ${env.DOCKER_CONTAINER} || true"
                     
                     // Run the new container
-                    dockerImage.run("-d -p 8001:8001 --name ${env.DOCKER_CONTAINER}")
+                    dockerImage.run("-d -p 3000:3000 --name ${env.DOCKER_CONTAINER}")
                 }
             }
         }
